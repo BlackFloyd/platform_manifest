@@ -7,7 +7,7 @@
   <remote  name="crimson"
            fetch="https://github.com/BlackFloyd" />
   <default revision="master"
-           remote="aosp"
+	           remote="aosp"
            sync-j="4" />
 
   <project path="build" name="platform/build" groups="pdk,tradefed" >
@@ -431,7 +431,8 @@ remote="crimson" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" groups="pdk-fs" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" groups="pdk-fs" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" groups="pdk-fs" />
-  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" groups="pdk-fs" />
+  <project path="packages/apps/Settings" name="platform_packages_apps_settings" remote="crimson" 
+groups="pdk-fs" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" groups="pdk-fs" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" groups="pdk-fs" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" groups="pdk-fs" />
