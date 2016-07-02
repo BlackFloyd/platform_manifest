@@ -6,6 +6,8 @@
            review="https://android-review.googlesource.com/" />
   <remote  name="crimson"
            fetch="https://github.com/BlackFloyd" />
+  <remote  name="fdroid"
+           fetch="https://github.com/f-droid" />
   <default revision="master"
 	       remote="aosp"
            sync-j="4" />
@@ -541,5 +543,5 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/test/connectivity" name="platform/tools/test/connectivity" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
-
+  <project path="packages/apps/F-Droid" name="fdroidclient" remote="fdroid" revision="master" />
 </manifest>
