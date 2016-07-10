@@ -536,5 +536,6 @@
   <project path="tools/test/connectivity" name="platform/tools/test/connectivity" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
   <project path="packages/apps/F-Droid" name="fdroidclient" remote="crimson" revision="master" />
+  <project path="packages/apps/Privileged-Extension" name="fdroidclient" remote="crimson" revision="build_priv_ext" />
   <project path="packages/apps/Silence" name="Silence" remote="crimson" revision="master" />
 </manifest>
