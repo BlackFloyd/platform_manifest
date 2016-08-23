@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
+  <remote  name="crimson"
+           fetch="https://github.com/BlackFloyd" />
   <remote  name="aosp"
            fetch=".." />
   <default revision="refs/tags/android-7.0.0_r1"
@@ -54,6 +55,8 @@
   <project path="device/htc/flounder-kernel" name="device/htc/flounder-kernel" groups="device,flounder,broadcom_pdk" clone-depth="1" />
   <project path="device/huawei/angler" name="device/huawei/angler" groups="device,angler,broadcom_pdk" />
   <project path="device/huawei/angler-kernel" name="device/huawei/angler-kernel" groups="device,angler,broadcom_pdk" />
+  <project path="device/lge/hammerhead" name="device/lge/hammerhead" groups="device,hammerhead,broadcom_pdk,generic_fs" revision="refs/tags/android-6.0.1_r60" />
+  <project path="device/lge/hammerhead-kernel" name="kernel_msm" groups="device,hammerhead,broadcom_pdk,generic_fs" clone-depth="1" revision="android-msm-hammerhead-3.4-marshmallow-mr2" remote="crimson" />
   <project path="device/intel/edison" name="device/intel/edison" groups="device" />
   <project path="device/lge/bullhead" name="device/lge/bullhead" groups="device,bullhead" />
   <project path="device/lge/bullhead-kernel" name="device/lge/bullhead-kernel" groups="device,bullhead" />
